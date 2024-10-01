@@ -1,0 +1,211 @@
+* {
+    margin: 0; /* cobre todo conteudo da tela  nas laterais */ 
+    margin: 0;
+ 
+ }
+ 
+ Body {
+     background-color:#F5F5F5;
+ }
+ 
+ 
+ header {
+     text-align: center;    
+ }
+ 
+ header,
+ h1 {
+     font-size: 2.5rem;
+     color:#B0E0E6; 
+     background-color: black;
+     color: antiquewhite; 
+     
+ }
+ 
+  
+ 
+ 
+ h4 {
+     font-size: 30px;
+     color: #ffffff;
+     text-align: center;
+     margin-bottom: 10px;
+ }
+ 
+ 
+ header,
+ img {
+     
+     height:240px;  
+     padding-bottom: 20px;
+       
+ }
+ 
+ nav,
+ .list{
+     display: flex;
+     justify-content:space-around;
+     width:100%;
+ }
+ 
+   
+ .list a {
+     
+     text-decoration: none;
+     font-size: 25px;
+     width: 100%;
+     color:#0f0e0e;
+     background-color: rgb(235, 232, 217);   
+     text-align: center;
+     transition: 0.4s;
+     border: solid 1px #C0C0C0;
+      }
+ 
+      .list a:hover {
+         color:mediumblue;
+      }
+ 
+ 
+ form { 
+     position: relative;
+     margin: 20px;
+ }
+ 
+ form,
+ input {
+     font-size: 20px;
+     border-radius: 50px;    
+ }
+ 
+ input,
+ #busca {
+     background-color: #F5F5F5;
+     border: solid 1px #D8BFD8;
+     color: black;
+ }
+ 
+ input,
+ ::placeholder {
+     text-align: center;
+ }
+ 
+ input,
+ #submit {
+     background-color:#228B22;
+     color:#f3f5f7;
+     border: none;
+     
+ }
+ 
+ #submit {
+     cursor: pointer;
+ }
+ 
+ .roms-pai {
+     padding-bottom: 15px;
+ }
+ 
+ .roms {
+     display: flex;
+     flex-wrap:wrap;
+     font-family: helvetica;
+ 
+ }
+ 
+ .roms a {
+     text-decoration:solid;
+     margin-bottom: 17px;
+     font-size: 20PX;
+     color:#4F4F4F;
+     font-size: 23px;
+ }
+ 
+ .roms a:hover {
+     background-color: #00BFFF;
+     color: mediumblue;
+      } 
+ 
+ 
+ .roms2 {
+     display:flex;
+ 
+ }
+ 
+ .roms2 a {
+     flex-wrap: wrap;
+     margin-right: 25px;
+ }
+ 
+ main {
+     background-color:#FFFFF0;
+     margin-bottom: 20px;
+     border-radius: 50px;
+     border: 2px solid #FDF5E6;
+ }
+ 
+ 
+ #sidebar {
+     text-align: center;
+     justify-content: center;
+     width:auto;
+     background-color:#F5F5F5;
+     margin: 25px;
+ }
+ 
+ #search {
+ padding-bottom: 10px;
+ 
+ }
+ 
+ #search h3 {
+     font-size: 30px;
+     color:#4F4F4F;
+ }
+ 
+ #search p {
+     font-size: 22px;
+ }
+ 
+ /* services */
+ .services-container {
+     padding: 5rem 0;     /* agente ganha espaÃ§amento superior e inferior e lateral 0 */
+ }
+ 
+ .services-container ul {
+     display: flex;   /* deixara cada ul um do lado do outro .. muito eficaz! */
+     width: 90%;  /* para centralizar melhor os textos */
+     margin : 0 auto;    /* tecnica de centralizaÃ§ao tambem */
+ }
+ 
+ .services-container li {
+    flex: 1 1 200px;    /* 1 a forma que ele vai crescer quando a pag almentar o outro 1 e diminuir a proporÃ§ao e 200 ÃŠ  largura base   */ 
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+ }
+ 
+ .fas{   /* aqui sao os desenho do foguete comentario e escudo */
+     /* pode ser um desenho mais sao consideradas como texto ,podemos  usar font e margin para modificar ela */
+     font-size :60px;
+     margin-bottom: 15px;
+ }
+ 
+ .fa-shield-alt {
+     color: #2cc76a;
+ }
+ 
+ .fa-rocket {
+     color: #ef3f29;      /* aqui acabamos de mudar a cor dos icones que sao os desenhos */
+ }
+ 
+ .fa-comments {
+     color: #ef8f29;
+ }
+ 
+ .services-container h3 {
+  margin-bottom: 25px;   
+ }
+ 
+ .services-container p {
+     line-height: 24px;
+ }
